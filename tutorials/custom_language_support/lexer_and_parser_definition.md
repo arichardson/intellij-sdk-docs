@@ -46,6 +46,7 @@ Create the class in the `com.simpleplugin.psi` namespace.
 
 ### 4.6. Register the parser definition
 
+Add the following entry to the plugin.xml `<extensions defaultExtensionNs="com.intellij">` element:
 ```xml
 <lang.parserDefinition language="Simple" implementationClass="com.simpleplugin.SimpleParserDefinition"/>
 ```
